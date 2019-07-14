@@ -146,12 +146,17 @@ h1, h2, h3, h4, h5 {
 .present {
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
 }
 
 .present__item {
+	width: 150px;
 }
 
 .present__img {
+
 }
 
 .present__title {

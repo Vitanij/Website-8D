@@ -139,5 +139,26 @@ h1, h2, h3, h4, h5 {
 	margin: 30px auto;
 	border-radius: 50%;
 
-	background-color: blue;
+	background-color: #4682B4;
+}
+
+/* PRESENT */
+.present {
+	
+}
+
+.present__img {
+	
+}
+
+.present__title {
+	
+}
+
+.present__subtitle {
+	
+}
+
+.present__btn {
+	
 }

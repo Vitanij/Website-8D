@@ -153,7 +153,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .present__img {
-	
+	width: 100px;
+	height: 100px;
 }
 
 .present__title {

@@ -70,11 +70,20 @@ h1, h2, h3, h4, h5 {
 	font-size: 30px;
 	font-weight: 700;
 	color: #fff;
+	cursor: pointer;
+	display: flex;
+	
 }
 
-.header__logo:hover {
-	color: orange;
-	transition: color .5s;
+.header__logo:hover .hidden {
+	opacity: 1;
+	max-width: 1em;
+}
+
+.hidden {
+	max-width: 0;
+	opacity: 0;
+	transition: 0.5s ease-in;
 }
 
 /* NAV */

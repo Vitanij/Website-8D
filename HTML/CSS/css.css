@@ -70,11 +70,11 @@ h1, h2, h3, h4, h5 {
 	font-size: 30px;
 	font-weight: 700;
 	color: #fff;
-	transition: color .5s;
 }
 
 .header__logo:hover {
 	color: orange;
+	transition: color .5s;
 }
 
 /* NAV */
@@ -90,8 +90,6 @@ h1, h2, h3, h4, h5 {
 	color: #fff;
 	text-decoration: none;
 	position: relative;
-
-	transition: color .2s linear;
 }
 
 .nav__link:after {
@@ -147,26 +145,52 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	max-width: 700px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
 .present__item {
-	width: 150px;
+	width: 200px;
+	text-align: center;
 }
 
-.present__img {
+.present__img:after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 3px;
+	margin: 10px auto;
+	border-radius: 50%;
 
+	background-color: #4682B4;
 }
 
 .present__title {
-	
+	font-size: 20px;
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
 }
 
 .present__subtitle {
-	
+	margin: 10px auto
 }
 
-.present__btn {
-	
+.btn {
+	text-transform: uppercase;
+	padding: 5px;
+	margin: 15px auto 0;
+	border-color: orange;
+	border-style: inset;
+	background-color: #FF5722;
+	color: #fff;
+	text-decoration: none;
+	transition: .2s;
+}
+
+.btn:hover {
+	transition: 0.2s ease-out;
+	color: #333;
+	background-color: #fff;
+	border-radius: 30%;
 }

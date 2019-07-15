@@ -72,10 +72,10 @@ h1, h2, h3, h4, h5 {
 	color: #fff;
 	cursor: pointer;
 	display: flex;
-	
+
 }
 
-.header__logo:hover .hidden {
+.header__logo:active .hidden {
 	opacity: 1;
 	max-width: 1em;
 }

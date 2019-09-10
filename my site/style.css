@@ -80,12 +80,60 @@ header{
     right: 0;
   }
 }
-
+/* заканчивается меню */
 main{
+	font-family: "montserrat",sans-serif;
+	margin: 0 auto;
+	min-width: 100px;
+	max-width: 700px;
+	
+}
+
+
+h1{
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
+table {
+	width: 98%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-top: 50px;
+	
+}
+th, td:first-child {
+	background: #537997;
+	color: white;
+	padding: 13px 20px;
+	width: 20%;
+}
+th, td {
+	border-style: solid;
+	border-width: 0 0 3px 0;
+	border-color: white;
 	text-align: center;
 }
 
-h1{
-	padding: 500px;
+td {
+	background: #D8E6F3;
+}
+
+
+form{
+	text-align: center;
+}
+
+.homework{
+	width: 40%;
+	margin-bottom: 5px;
+}
+
+.input-button{
+	margin-left: 10px;
 }
 

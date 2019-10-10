@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5 {
 	z-index: 1000;
 }
 
-.header__dz {
+.position__absolute {
 	position: absolute;
 }
 
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5 {
 	border-radius: 50%;
 
 	background-color: #4682B4;
-}*/
+}
 
 /* PRESENT */
 .present {
@@ -215,8 +215,6 @@ h1, h2, h3, h4, h5 {
 
 .btn {
 	text-transform: uppercase;
-	padding: 5px;
-	margin: 15px auto 0;
 	border-color: #00A287;
 	border-style: solid;
 	border-radius: 20px;
@@ -233,6 +231,19 @@ h1, h2, h3, h4, h5 {
 	background-color: #fff;
 }
 
+.btn__icons {
+	padding: 5px;
+	margin: 15px auto 0;
+}
+
+.btn__save {
+	position: absolute;
+	padding: 10px 180px;
+	margin: 7px auto 0 356px;
+	text-align: center;
+	cursor: pointer;
+}
+
 /* IMAGE */
 .homework__img {
 	/*width: 956px;
@@ -241,4 +252,16 @@ h1, h2, h3, h4, h5 {
 	height: 700px;
 	margin: 0 auto;
 	padding-top: 30px;
+}
+
+.yroki {
+	position: absolute;
+	height: 23px;
+	width: 109px;
+}
+
+.homework {
+	position: absolute;
+	height: 23px;
+	width: 308px;
 }
